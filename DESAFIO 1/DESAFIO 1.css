@@ -1,0 +1,202 @@
+*{
+    font-family: "Montserrat", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+header {
+   margin: 44px 0 144px 76px;
+}
+
+.link{
+        color: #989D9C;
+        font-size: 24px;
+        font-weight: 600;
+        margin-right: 25px;
+        text-transform: uppercase;
+        cursor: pointer;
+        }
+
+            .link:nth-child(1){
+                color: #665AE1;
+            }
+                .link:nth-child(2){
+                    color: #ff1111;
+                }
+                    .link:nth-child(3){
+                        color: #11ff56;
+                    }
+                        .link:nth-child(4){
+                            color: #99aa23;
+                        }
+                            .link:nth-child(5){
+                                color: #5f4511;
+                            }
+                                .link:active{
+                                color: #ff11ff;
+                                opacity: .7;
+                                }
+                                    .link:hover{
+                                        opacity: .6;
+                                    }
+
+
+.botao-1{
+        color: #FFF;
+        font-size: 24px;
+        font-weight: 600;
+        border-radius: 20.5px;
+        background: #665AE1;
+        width: 130px;
+        height: 41px;
+        border: none;
+        text-transform: uppercase;
+        cursor: pointer;
+        }
+
+            .botao-1:hover{
+                opacity: .5;
+            }
+
+                .botao-1:active{
+                    opacity: .8;
+                    color: black;
+                }
+
+img {
+        width: 568px;
+        height: 500px ; 
+        margin-left: 125px;
+        display: inline-block;
+}
+
+.section{
+        display: inline-block;
+        margin-left: 200px;
+}
+
+h1{
+        color: #515151 ;
+        font-size: 100px;
+        font-weight: 900;
+        line-height: 122px;
+        cursor: pointer;
+}
+
+            h1:hover{
+                color: #ff11ff;
+            }
+
+h2{
+        font-size: 58px; 
+        font-weight: 500; 
+        color: #515151 ;
+        line-height: 71px;
+        cursor: pointer;     }
+
+
+            h2:hover{
+                color: #11ff56;    }
+            
+
+p{
+        font-size: 24px;
+        font-weight:400px;
+        color: #848484;
+        width: 700px;
+        margin-top: 32px;
+        margin-bottom: 65px;
+        opacity: .3;
+        cursor: pointer;
+
+}
+
+.botao-2{
+    width: 239px ;
+            height: 64px;
+            border-radius: 30px;
+            color: #000000;
+            background: #ADFF00;
+            border: none;
+            line-height: 34px;
+            font-size: 28px;
+            font-weight: 700;
+            cursor: pointer;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            text-transform: uppercase;
+}
+
+                    .botao-2:hover{
+                        color: white;
+
+                    }
+
+                        .botao-2:active{
+                            opacity: .4;
+                        }
+
+@media screen and ( max-width: 900px){
+
+    main{
+        display: block;
+        width: 100%;
+        height: 100vh;
+        padding: 14px;
+    }
+
+    header{
+        display: none;
+    }
+
+     img{
+        position: static;
+        margin:  149px auto 24px;
+        width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    .section{
+        display: block;
+        width: 100%;
+        height: auto;
+        margin:0;
+        padding: 0;
+    }
+
+    h1{
+        display: block;
+        text-align: center;
+        width: auto;
+        font-size: 50px;
+        font-weight: 900;
+        line-height: normal;
+        text-transform: uppercase;
+        
+    }
+
+    h2{
+        text-align: center;
+        line-height: normal;
+        width:auto;
+        font-weight: 500;
+        font-size: 30px;
+        margin-top: 7px;
+        margin-bottom: 17px;
+        text-transform: capitalize;
+
+    }
+
+    p{
+        display: none;
+    }
+
+    .botao-2{
+        display: block;
+        margin: 0px auto;
+    }
+        
+}

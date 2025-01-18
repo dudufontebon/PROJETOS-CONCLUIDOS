@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    background: #aa78ff ;
+}
+
+
+header{
+    margin: 47px 0 0 42px;
+}
+
+#links{
+    color: #fffff1;
+     font-size: 14px;
+      font-weight: 400;
+       letter-spacing: 0.875px;
+        margin-right: 32px;
+         cursor: pointer;
+}
+
+            #links:hover{
+                color: #3ff2c8;
+            }
+                #links:active{
+                    opacity: .5;
+                }
+
+.botao-header{
+    width: 124px;
+     height: 51px;
+      border-radius: 27px;
+       color: white;
+        border: 1px solid #4CB538;
+         background: #6FBF44;
+          cursor: pointer;
+}
+
+            .botao-header:hover{
+                color: black;
+            }
+
+                .botao-header:active{
+                    opacity: .7;
+                }
+
+.imagem{
+    margin: 150px 0 0 121px;
+     display: inline-block ;
+      max-width: 100%;
+       height: auto;
+}
+
+.conteudo{
+    display: inline-block;
+     width: 500px;
+      margin-left: 240px; 
+      
+}
+
+h1{
+    color:#fffff1 ;
+     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      font-size: 62px;
+       font-weight: 700;
+        line-height: 82px; 
+         letter-spacing: 0.596px;
+          cursor: pointer;
+          text-transform: capitalize;
+}
+
+h1:hover{
+    color: #3ff2c8;
+}
+
+
+p{
+    width: 493px; 
+     color: #4B505A;   
+      font-size: 18px;
+       font-weight: 400;
+        line-height: 33px; 
+         letter-spacing: 0.5px;
+          margin-top: 47px;
+           margin-bottom: 55px;
+
+}
+
+p:hover{
+    color: #3ff2c8;
+}
+
+.button-conteudo{
+    background: transparent;
+    color: white;
+     font-size: 18px;
+      font-weight: 500;
+       letter-spacing: 1px;
+        cursor: pointer;  
+          border: none;
+        
+}
+
+.button-conteudo:hover{
+    color: #3ff2c8 ;
+}
+
+.button-conteudo:active{
+    opacity: .6;
+}
+
+@media screen and ( max-width: 850px){
+    .conteudo{
+        display: block;
+         width: 100%;
+          height: 50%;
+           margin:0;
+            padding: 0;
+    }
+
+header{
+    display: flex;
+     justify-content: flex-end; 
+      padding: 10px;
+       margin-top: 20px;
+}
+     main{
+        display: flex;
+        flex-direction: column;
+         width: 100%;
+          height: auto;
+           position: static;
+            padding: 12px;
+        
+    }
+
+    #links{
+        display: none ;
+    }
+
+    .botao-header{
+        width: 74px;
+         height: 20px;
+         
+    }
+
+    h1{
+        order: 1;
+         text-align: center;
+          width: auto;        
+           font-size: 30px;
+            font-weight: 700;
+             line-height: 30px; 
+               letter-spacing: 0.596px;
+                margin-top: 124px;
+    }
+
+    p{
+        width: auto;
+         text-align: center;
+          margin: 26px 43px;
+           font-size: 18px;
+            font-weight: 400;
+             line-height: 33px; 
+              letter-spacing: 0.5px;
+    }
+
+    .button-conteudo{
+        display:  block;
+         margin: 0  auto; 
+         font-size: 18px;
+          font-weight: 500;
+           letter-spacing: 1px;
+            margin-bottom: 50px;
+    }
+
+    .imagem{
+        order: 2;
+         margin: 0 auto;
+          padding: 3px;
+        
+}
+    }
+
